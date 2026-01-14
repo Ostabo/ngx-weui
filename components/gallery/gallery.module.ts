@@ -4,9 +4,8 @@ import { NgModule } from '@angular/core';
 import { GalleryComponent } from './gallery.component';
 
 @NgModule({
-  imports: [CommonModule],
-  declarations: [GalleryComponent],
-  exports: [GalleryComponent],
-  entryComponents: [GalleryComponent],
+    imports: [CommonModule],
+    declarations: [GalleryComponent],
+    exports: [GalleryComponent]
 })
 export class GalleryModule {}

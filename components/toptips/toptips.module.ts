@@ -3,9 +3,8 @@ import { NgModule } from '@angular/core';
 import { ToptipsComponent } from './toptips.component';
 
 @NgModule({
-  imports: [CommonModule],
-  declarations: [ToptipsComponent],
-  exports: [ToptipsComponent],
-  entryComponents: [ToptipsComponent],
+    imports: [CommonModule],
+    declarations: [ToptipsComponent],
+    exports: [ToptipsComponent]
 })
 export class ToptipsModule {}

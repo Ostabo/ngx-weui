@@ -3,9 +3,8 @@ import { NgModule } from '@angular/core';
 import { LoadmoreComponent } from './loadmore.component';
 
 @NgModule({
-  imports: [CommonModule],
-  declarations: [LoadmoreComponent],
-  exports: [LoadmoreComponent],
-  entryComponents: [LoadmoreComponent],
+    imports: [CommonModule],
+    declarations: [LoadmoreComponent],
+    exports: [LoadmoreComponent]
 })
 export class LoadmoreModule {}

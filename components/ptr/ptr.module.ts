@@ -3,9 +3,8 @@ import { NgModule } from '@angular/core';
 import { PTRComponent } from './ptr.component';
 
 @NgModule({
-  imports: [CommonModule],
-  declarations: [PTRComponent],
-  exports: [PTRComponent],
-  entryComponents: [PTRComponent],
+    imports: [CommonModule],
+    declarations: [PTRComponent],
+    exports: [PTRComponent]
 })
 export class PTRModule {}
