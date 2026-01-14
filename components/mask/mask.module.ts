@@ -3,9 +3,8 @@ import { NgModule } from '@angular/core';
 import { MaskComponent } from './mask.component';
 
 @NgModule({
-  imports: [CommonModule],
-  declarations: [MaskComponent],
-  exports: [MaskComponent],
-  entryComponents: [MaskComponent],
+    imports: [CommonModule],
+    declarations: [MaskComponent],
+    exports: [MaskComponent]
 })
 export class MaskModule {}

@@ -4,9 +4,8 @@ import { NgModule } from '@angular/core';
 import { ActionSheetComponent } from './actionsheet.component';
 
 @NgModule({
-  imports: [CommonModule],
-  declarations: [ActionSheetComponent],
-  exports: [ActionSheetComponent],
-  entryComponents: [ActionSheetComponent],
+    imports: [CommonModule],
+    declarations: [ActionSheetComponent],
+    exports: [ActionSheetComponent]
 })
 export class ActionSheetModule {}

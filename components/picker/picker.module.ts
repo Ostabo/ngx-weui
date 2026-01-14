@@ -8,9 +8,8 @@ import { PickerComponent } from './picker.component';
 const COMPONENTS = [PickerComponent, PickerGroupComponent, DatePickerComponent, CityPickerComponent];
 
 @NgModule({
-  imports: [CommonModule],
-  declarations: COMPONENTS,
-  exports: COMPONENTS,
-  entryComponents: COMPONENTS,
+    imports: [CommonModule],
+    declarations: COMPONENTS,
+    exports: COMPONENTS
 })
 export class PickerModule {}

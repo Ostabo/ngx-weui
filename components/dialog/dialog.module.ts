@@ -8,9 +8,8 @@ import { SliderModule } from 'ngx-weui/slider';
 import { DialogComponent } from './dialog.component';
 
 @NgModule({
-  imports: [CommonModule, FormsModule, MaskModule, FormModule, SliderModule],
-  declarations: [DialogComponent],
-  exports: [DialogComponent],
-  entryComponents: [DialogComponent],
+    imports: [CommonModule, FormsModule, MaskModule, FormModule, SliderModule],
+    declarations: [DialogComponent],
+    exports: [DialogComponent]
 })
 export class DialogModule {}

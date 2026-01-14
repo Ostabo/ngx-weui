@@ -95,9 +95,8 @@ const COMPONENTS = [
 ];
 
 @NgModule({
-  imports: [SharedModule],
-  declarations: COMPONENTS,
-  entryComponents: [PageComponent],
-  exports: COMPONENTS,
+    imports: [SharedModule],
+    declarations: COMPONENTS,
+    exports: COMPONENTS
 })
 export class ExampleCoreModule { }
